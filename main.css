@@ -7,6 +7,7 @@
     
     Don't change the container width.
   */
+
   margin: 0 auto;  
   width: 720px;
 }
@@ -23,7 +24,8 @@ nav
   width: 600px;
   margin-left : 145px;
   border-left: 2px solid gray;
-  padding-left: 15px
+  padding-left: 15px;
+  padding-bottom:13px;
 }
 
 nav ul
@@ -39,6 +41,16 @@ header
 
 .footer
 {
-  text-align: center;
-  margin-top:20px;
+  padding-left:160px;
+  padding-top:20px;
+  margin-bottom: 20px;
+  width:100%;
+
+  border-top: 2px solid gray;
+
+}
+
+.content section:last-child p:last-child
+{
+  margin-bottom: 0px;
 }
