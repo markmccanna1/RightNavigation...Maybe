@@ -14,17 +14,18 @@
 
 nav
 {
-  float:left;
+  float:right;
   width: 20%;
-  margin: 10px auto; 
+  margin: 10px auto;
+
 }
 
 .content
 {
-  width: 600px;
-  margin-left : 145px;
-  border-left: 2px solid gray;
-  padding-left: 15px;
+  width: 80%;
+  margin-right : 145px;
+  border-right: 2px solid gray;
+  padding-right: 15px;
   padding-bottom:13px;
 }
 
@@ -36,12 +37,11 @@ nav ul
 
 header
 {
-  margin-left: 40px
+
 }
 
 .footer
 {
-  padding-left:160px;
   padding-top:20px;
   margin-bottom: 20px;
   width:100%;
